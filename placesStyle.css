@@ -1,0 +1,80 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+tr img{
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+table, th, td {
+    border:10px solid transparent;
+}
+
+figcaption a{
+    color: blue;
+    text-decoration: none;
+}
+
+/*Header*/
+
+.header h1{
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+/*Nav Section*/
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Content Section*/
+
+.content-section a{
+    color: black;
+    text-decoration: none;
+}
+
+.content-section li{
+    font-size: 18px;
+}
+
+/* Philippines Section */
+
+.Philippines-section{
+    padding-top: 10px;
+}
+
+/* France Section */
+
+.France-section{
+    padding-top: 10px;
+}
+
+/* Isle of Wight Section */
+
+.Isle-of-wight-section{
+    padding-top: 10px;
+}
